@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/main_frag"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/main_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rb_home_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/home_btn_1"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@drawable/home_text_selector" />
+
+        <RadioButton
+            android:id="@+id/rb_home_2"
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/home_btn_2"
+            android:gravity="center"
+            android:text="分类"
+            android:textColor="@drawable/home_text_selector" />
+
+        <RadioButton
+            android:id="@+id/rb_home_3"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/home_btn_3"
+            android:gravity="center"
+            android:text="购物车"
+            android:textColor="@drawable/home_text_selector" />
+
+        <RadioButton
+            android:id="@+id/rb_home_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/home_btn_4"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@drawable/home_text_selector" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
